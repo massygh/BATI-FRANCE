@@ -53,6 +53,17 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
+.phone-number a {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+.phone-number a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
