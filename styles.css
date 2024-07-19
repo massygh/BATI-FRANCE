@@ -21,8 +21,20 @@ header {
     z-index: 10;
 }
 
+
 header .logo {
-    margin-left: 1rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 120px;
+}
+
+header .logo h1 {
+    padding: 0 1rem;
+    font-family:'trickster';
 }
 
 header nav {
@@ -226,3 +238,4 @@ button:hover {
     padding: 0.5rem;
     border-radius: 5px;
 }
+
