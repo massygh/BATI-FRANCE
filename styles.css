@@ -294,3 +294,38 @@ button:hover {
     border-radius: 5px;
 }
 
+.scroll-down {
+    position: absolute;
+    bottom: 20px; /* Ajustez selon vos besoins */
+    left: 50%; /* Centre horizontalement par rapport au conteneur parent */
+    transform: translateX(-50%); /* Centre horizontalement l'élément */
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    z-index: 20; /* Assurez-vous qu'il soit au-dessus du texte et des autres éléments */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.scroll-down img {
+    width: 28px; /* Taille de l'image de la flèche */
+    height: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.scroll-down img:hover {
+    opacity: 1; /* Effet de survol */
+}
+
